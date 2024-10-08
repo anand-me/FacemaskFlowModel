@@ -122,30 +122,23 @@ This will plot Figures 6a to 6f as shown in the manuscript.
 
 ### Data Description
 
-- **Cell 49 to 55**: Contains data for \( \alpha = +1.2 \)  
+- **Cell 49 to 55**: Contains data for \( alpha = +1.2 \)  
   All data for contributions of \( Q_g \) and \( Q_m \) is organized for 9 facial features.
 
-- **Cell 58 to 63**: Contains data for \( \alpha = -1.2 \)
+- **Cell 58 to 63**: Contains data for \( alpha = -1.2 \)
 
 ---
 
 ## Figure 10
 
-
+### Datasets
 | Parameter Name                | Size  | Description of Parameter                        |
 |-------------------------------|-------|-------------------------------------------------|
-| data_for_jet_vel_cheek.mat      | 24 x 7| \Jet velocity for feature cheek (outward protection model) (m/s)                    |
-| data_for_jet_vel_chin.mat       | 24 x 7| \Jet velocity for feature chin (outward protection model) (m/s)                    |
-| data_for_jet_vel_nose.mat       | 24 x 7| \Jet velocity for feature nose (outward protection model) (m/s)                   |
-| data_for_jet_vel_zygo.mat       | 24 x 7| \Jet velocity for feature zygo (outward protection model) (m/s)                   |
+| data_for_jet_vel_cheek.mat      | 24 x 7| Jet velocity for feature cheek (outward protection model) (m/s)                    |
+| data_for_jet_vel_chin.mat       | 24 x 7| Jet velocity for feature chin (outward protection model) (m/s)                    |
+| data_for_jet_vel_nose.mat       | 24 x 7| Jet velocity for feature nose (outward protection model) (m/s)                   |
+| data_for_jet_vel_zygo.mat       | 24 x 7| Jet velocity for feature zygo (outward protection model) (m/s)                   |
 
-
-### Datasets
-
-- **`data_for_jet_vel_cheek.mat`**: 24 x 7
-- **`data_for_jet_vel_chin.mat`**: 24 x 7
-- **`data_for_jet_vel_nose.mat`**: 24 x 7
-- **`data_for_jet_vel_zygo.mat`**: 24 x 7
 
 #### Data Columns
 
