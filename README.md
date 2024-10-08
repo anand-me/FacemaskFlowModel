@@ -181,3 +181,43 @@ The same approach can be followed for cases with 48 and 56 channels.
 
 The feature (nose) data and PCA data for figure 11 (or supplementry material figure) can be downloaded here.
 - [Google Drive](https://drive.google.com/drive/folders/1WQvdLrIppWfo6OH1EYPmjKBLQWqMEdKp?usp=sharing)
+
+
+## <span id="resultslink">Results</span>
+
+## <span id="resultslink">Results</span>
+
+<div style="text-align:center;">
+  <h2>Figures</h2>
+  <img id="currentImage" src="img/jpg_version/Fig_1.jpg" style="max-width:100%; height:auto;">
+  <br><br>
+  <button id="nextButton">Show Next</button>
+</div>
+
+<script>
+  // Array of image filenames
+  const images = [
+    'img/jpg_version/Fig_1.jpg',
+    'img/jpg_version/Fig_2.jpg',
+    'img/jpg_version/Fig_3.jpg',
+    'img/jpg_version/Fig_4.jpg',
+    'img/jpg_version/Fig_5.jpg',
+    'img/jpg_version/Fig_6.jpg',
+    'img/jpg_version/Fig_7.jpg',
+    'img/jpg_version/Fig_8.jpg',
+    'img/jpg_version/Fig_9.jpg',
+    'img/jpg_version/Fig_10.jpg',
+    'img/jpg_version/Fig_11.jpg'
+  ];
+  
+  let currentIndex = 0;
+
+  // Event listener for the button
+  document.getElementById('nextButton').addEventListener('click', function() {
+    currentIndex++;
+    if (currentIndex >= images.length) {
+      currentIndex = 0; // Reset to the first image
+    }
+    document.getElementById('currentImage').src = images[currentIndex];
+  });
+</script>
