@@ -183,85 +183,32 @@ The feature (nose) data and PCA data for figure 11 (or supplementry material fig
 - [Google Drive](https://drive.google.com/drive/folders/1WQvdLrIppWfo6OH1EYPmjKBLQWqMEdKp?usp=sharing)
 
 
-<span id="resultslink">Results</span>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Results Carousel - 11 Figures</title>
-    <style>
-        .carousel-container {
-            max-width: 800px;
-            margin: 0 auto;
-            position: relative;
-        }
-        .carousel-image {
-            width: 100%;
-            height: auto;
-            display: none;
-        }
-        .carousel-image.active {
-            display: block;
-        }
-        .carousel-button {
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            background-color: rgba(0,0,0,0.5);
-            color: white;
-            border: none;
-            padding: 15px;
-            cursor: pointer;
-            font-size: 24px;
-        }
-        .carousel-button.prev {
-            left: 10px;
-        }
-        .carousel-button.next {
-            right: 10px;
-        }
-        .image-counter {
-            position: absolute;
-            bottom: 10px;
-            left: 50%;
-            transform: translateX(-50%);
-            background-color: rgba(0,0,0,0.5);
-            color: white;
-            padding: 5px 10px;
-            border-radius: 15px;
-        }
-    </style>
-</head>
-<body>
-    <div class="carousel-container">
-        <img src="img/jpg_version/Fig_1.jpg" alt="Figure 1" class="carousel-image active">
-        <img src="img/jpg_version/Fig_2.jpg" alt="Figure 2" class="carousel-image">
-        <img src="img/jpg_version/Fig_3.jpg" alt="Figure 3" class="carousel-image">
-        <img src="img/jpg_version/Fig_4.jpg" alt="Figure 4" class="carousel-image">
-        <img src="img/jpg_version/Fig_5.jpg" alt="Figure 5" class="carousel-image">
-        <img src="img/jpg_version/Fig_6.jpg" alt="Figure 6" class="carousel-image">
-        <img src="img/jpg_version/Fig_7.jpg" alt="Figure 7" class="carousel-image">
-        <img src="img/jpg_version/Fig_8.jpg" alt="Figure 8" class="carousel-image">
-        <img src="img/jpg_version/Fig_9.jpg" alt="Figure 9" class="carousel-image">
-        <img src="img/jpg_version/Fig_10.jpg" alt="Figure 10" class="carousel-image">
-        <img src="img/jpg_version/Fig_11.jpg" alt="Figure 11" class="carousel-image">
-        <button class="carousel-button prev" onclick="changeImage(-1)">&#10094;</button>
-        <button class="carousel-button next" onclick="changeImage(1)">&#10095;</button>
-        <div class="image-counter">Figure <span id="current-image">1</span> of 11</div>
-    </div>
+## <span id="resultslink">Results</span>
 
-    <script>
-        let currentImage = 0;
-        const images = document.querySelectorAll('.carousel-image');
-        const currentImageSpan = document.getElementById('current-image');
+Below are the key figures from our study. Click on each image to view it in full size.
 
-        function changeImage(direction) {
-            images[currentImage].classList.remove('active');
-            currentImage = (currentImage + direction + images.length) % images.length;
-            images[currentImage].classList.add('active');
-            currentImageSpan.textContent = currentImage + 1;
-        }
-    </script>
-</body>
-</html>
+<table>
+  <tr>
+    <td><a href="img/jpg_version/Fig_1.jpg"><img src="img/jpg_version/Fig_1.jpg" width="250" alt="Figure 1"/></a></td>
+    <td><a href="img/jpg_version/Fig_2.jpg"><img src="img/jpg_version/Fig_2.jpg" width="250" alt="Figure 2"/></a></td>
+    <td><a href="img/jpg_version/Fig_3.jpg"><img src="img/jpg_version/Fig_3.jpg" width="250" alt="Figure 3"/></a></td>
+  </tr>
+  <tr>
+    <td>Figure 1: [Brief description]</td>
+    <td>Figure 2: [Brief description]</td>
+    <td>Figure 3: [Brief description]</td>
+  </tr>
+  <tr>
+    <td><a href="img/jpg_version/Fig_4.jpg"><img src="img/jpg_version/Fig_4.jpg" width="250" alt="Figure 4"/></a></td>
+    <td><a href="img/jpg_version/Fig_5.jpg"><img src="img/jpg_version/Fig_5.jpg" width="250" alt="Figure 5"/></a></td>
+    <td><a href="img/jpg_version/Fig_6.jpg"><img src="img/jpg_version/Fig_6.jpg" width="250" alt="Figure 6"/></a></td>
+  </tr>
+  <tr>
+    <td>Figure 4: [Brief description]</td>
+    <td>Figure 5: [Brief description]</td>
+    <td>Figure 6: [Brief description]</td>
+  </tr>
+  <!-- Continue this pattern for the remaining figures -->
+</table>
+
+For a detailed explanation of each figure, please refer to our paper.
