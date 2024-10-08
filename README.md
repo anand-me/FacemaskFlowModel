@@ -230,3 +230,6 @@ Below are the key figures from our study. Click on each image to view it in full
 </table>
 
 For a detailed explanation of each figure, please refer to our paper.
+
+## Contact
+If you have any questions, feel free to contact Akshay Aannd through Email (aanand@fsu.edu) or Github issues. Pull requests are highly welcomed!
