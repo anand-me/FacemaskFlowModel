@@ -184,71 +184,84 @@ The feature (nose) data and PCA data for figure 11 (or supplementry material fig
 
 
 <span id="resultslink">Results</span>
-<style>
-    .carousel-container {
-        max-width: 800px;
-        margin: 0 auto;
-        text-align: center;
-    }
-    .carousel-image {
-        max-width: 100%;
-        height: auto;
-        display: none;
-    }
-    .carousel-image.active {
-        display: block;
-    }
-    .carousel-button {
-        background-color: #4CAF50;
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
-    }
-</style>
-<div class="carousel-container">
-    <img src="img/jpg_version/Fig_1.jpg" alt="Figure 1" class="carousel-image active">
-    <img src="img/jpg_version/Fig_2.jpg" alt="Figure 2" class="carousel-image">
-    <img src="img/jpg_version/Fig_3.jpg" alt="Figure 3" class="carousel-image">
-    <img src="img/jpg_version/Fig_4.jpg" alt="Figure 4" class="carousel-image">
-    <img src="img/jpg_version/Fig_5.jpg" alt="Figure 5" class="carousel-image">
-    <img src="img/jpg_version/Fig_6.jpg" alt="Figure 6" class="carousel-image">
-    <img src="img/jpg_version/Fig_7.jpg" alt="Figure 7" class="carousel-image">
-    <img src="img/jpg_version/Fig_8.jpg" alt="Figure 8" class="carousel-image">
-    <img src="img/jpg_version/Fig_9.jpg" alt="Figure 9" class="carousel-image">
-    <img src="img/jpg_version/Fig_10.jpg" alt="Figure 10" class="carousel-image">
-    <img src="img/jpg_version/Fig_11.jpg" alt="Figure 11" class="carousel-image">
-    <br>
-    <button class="carousel-button" onclick="changeImage(-1)">Previous</button>
-    <button class="carousel-button" onclick="changeImage(1)">Next</button>
-</div>
-<script>
-let currentImage = 0;
-const images = document.querySelectorAll('.carousel-image');
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results Carousel - 11 Figures</title>
+    <style>
+        .carousel-container {
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+        }
+        .carousel-image {
+            width: 100%;
+            height: auto;
+            display: none;
+        }
+        .carousel-image.active {
+            display: block;
+        }
+        .carousel-button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0,0,0,0.5);
+            color: white;
+            border: none;
+            padding: 15px;
+            cursor: pointer;
+            font-size: 24px;
+        }
+        .carousel-button.prev {
+            left: 10px;
+        }
+        .carousel-button.next {
+            right: 10px;
+        }
+        .image-counter {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(0,0,0,0.5);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="carousel-container">
+        <img src="img/jpg_version/Fig_1.jpg" alt="Figure 1" class="carousel-image active">
+        <img src="img/jpg_version/Fig_2.jpg" alt="Figure 2" class="carousel-image">
+        <img src="img/jpg_version/Fig_3.jpg" alt="Figure 3" class="carousel-image">
+        <img src="img/jpg_version/Fig_4.jpg" alt="Figure 4" class="carousel-image">
+        <img src="img/jpg_version/Fig_5.jpg" alt="Figure 5" class="carousel-image">
+        <img src="img/jpg_version/Fig_6.jpg" alt="Figure 6" class="carousel-image">
+        <img src="img/jpg_version/Fig_7.jpg" alt="Figure 7" class="carousel-image">
+        <img src="img/jpg_version/Fig_8.jpg" alt="Figure 8" class="carousel-image">
+        <img src="img/jpg_version/Fig_9.jpg" alt="Figure 9" class="carousel-image">
+        <img src="img/jpg_version/Fig_10.jpg" alt="Figure 10" class="carousel-image">
+        <img src="img/jpg_version/Fig_11.jpg" alt="Figure 11" class="carousel-image">
+        <button class="carousel-button prev" onclick="changeImage(-1)">&#10094;</button>
+        <button class="carousel-button next" onclick="changeImage(1)">&#10095;</button>
+        <div class="image-counter">Figure <span id="current-image">1</span> of 11</div>
+    </div>
 
-function changeImage(direction) {
-    images[currentImage].classList.remove('active');
-    currentImage = (currentImage + direction + images.length) % images.length;
-    images[currentImage].classList.add('active');
-}
-</script>
-Figure Descriptions
+    <script>
+        let currentImage = 0;
+        const images = document.querySelectorAll('.carousel-image');
+        const currentImageSpan = document.getElementById('current-image');
 
-Figure 1: [Brief description of Figure 1]
-Figure 2: [Brief description of Figure 2]
-Figure 3: [Brief description of Figure 3]
-Figure 4: [Brief description of Figure 4]
-Figure 5: [Brief description of Figure 5]
-Figure 6: [Brief description of Figure 6]
-Figure 7: [Brief description of Figure 7]
-Figure 8: [Brief description of Figure 8]
-Figure 9: [Brief description of Figure 9]
-Figure 10: [Brief description of Figure 10]
-Figure 11: [Brief description of Figure 11]
-
-For a more detailed analysis of these results, please refer to our full paper [link to paper].
+        function changeImage(direction) {
+            images[currentImage].classList.remove('active');
+            currentImage = (currentImage + direction + images.length) % images.length;
+            images[currentImage].classList.add('active');
+            currentImageSpan.textContent = currentImage + 1;
+        }
+    </script>
+</body>
+</html>
