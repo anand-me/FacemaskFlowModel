@@ -11,13 +11,8 @@ plots presented in our forthcoming paper,
  As the paper has not yet been published, a direct link is not available at this time.
 
 <p align="center">
-<img src=".\img\readme_fig.jpg" height = "360" alt="" align=center />
+<img src=".\img\readme_fig.jpg" height = "200" alt="" align=center />
 <br><br>
 <b>Figure 1.</b> The architecture of Informer.
 </p>
 
-<p align="center">
-<img src=".\img\Picture1.png" height = "360" alt="" align=center />
-<br><br>
-<b>Figure 1.</b> The architecture of Informer.
-</p>
