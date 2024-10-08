@@ -25,18 +25,62 @@ plots presented in our forthcoming paper,
 - python == 3.6
 - pandas == 0.25.1
 
+
+
 ## Data
 
-The detailed descriptions about the arguments are as following:
+The detailed descriptions about the arguments are as follows:
 
-| Parameter name | Description of parameter |
-| --- | --- |
-| data_for_figure_5a.mat | 9 x6 to `informer`, `informerstack`, `informerlight(TBD)` |
-| data_for_figure_5b.mat | 9 x6         | The dataset name                                             |
-| data_for_figure_5c.mat | 9 x6    | The root path of the data file (defaults to `./data/ETT/`)    |
-| data_path      | The data file name (defaults to `ETTh1.csv`)                  |
-| features       | The forecasting task (defaults to `M`). This can be set to `M`,`S`,`MS` (M : multivariate predict multivariate, S : univariate predict univariate, MS : multivariate predict univariate) |
+### Exhale Flux Penetration Through Mask Fabric
 
+This dataset corresponds to exhale flux penetrating through the mask fabric for different values of \( c_k \): 100, 500, and 1000 (kg/m² × s).
+
+**Run**: `plot_figures_5abc.m`
+
+| Parameter Name                | Size  | Description of Parameter                         |
+|-------------------------------|-------|-------------------------------------------------|
+| data_for_figure_5a.mat       | 9 x 6 | \( c_k = 100 \) (kg/m² × s)                    |
+| data_for_figure_5b.mat       | 9 x 6 | \( c_k = 500 \) (kg/m² × s)                    |
+| data_for_figure_5c.mat       | 9 x 6 | \( c_k = 1000 \) (kg/m² × s)                   |
+
+#### Data Columns
+
+- **Column 1**: Alpha (-1.2:0.3:1.2)
+- **Column 2**: Sensitivity analysis when cavity size is increased to +7.5%
+- **Column 3**: Sensitivity analysis when cavity size is base size
+- **Column 4**: Sensitivity analysis when cavity size is reduced to -7.5%
+- **Column 5**: Sensitivity analysis for placement of cavity regions → if moved +5 mm from base position
+- **Column 6**: Sensitivity analysis for placement of cavity regions → if moved -5 mm from base position
+
+---
+
+### Inward Protection Model
+
+For inward protection model for two different values of head loss coefficient \( k_L \): 0.2 and 0.5.
+
+| Parameter Name                | Size  | Description of Parameter                         |
+|-------------------------------|-------|-------------------------------------------------|
+| data_for_figure_5a.mat       | 9 x 11| \( c_k = 100 \) (kg/m² × s)                    |
+| data_for_figure_5b.mat       | 9 x 11| \( c_k = 500 \) (kg/m² × s)                    |
+| data_for_figure_5c.mat       | 9 x 11| \( c_k = 1000 \) (kg/m² × s)                   |
+
+#### Sensitivity Analysis for \( k_L = 0.2 \)
+
+- **Column 2**: Sensitivity analysis when cavity size is increased to +7.5%
+- **Column 3**: Sensitivity analysis when cavity size is base size
+- **Column 4**: Sensitivity analysis when cavity size is reduced to -7.5%
+- **Column 5**: Sensitivity analysis for placement of cavity regions → if moved +5 mm from base position
+- **Column 6**: Sensitivity analysis for placement of cavity regions → if moved -5 mm from base position
+
+---
+
+#### Sensitivity Analysis for \( k_L = 0.5 \)
+
+- **Column 7**: Sensitivity analysis when cavity size is increased to +7.5%
+- **Column 8**: Sensitivity analysis when cavity size is base size
+- **Column 9**: Sensitivity analysis when cavity size is reduced to -7.5%
+- **Column 10**: Sensitivity analysis for placement of cavity regions → if moved +5 mm from base position
+- **Column 11**: Sensitivity analysis for placement of cavity regions → if moved -5 mm from base position
 
 
 The feature (nose) data and PCA data for figure 11 (or supplementry material figure) can be downloaded here.
