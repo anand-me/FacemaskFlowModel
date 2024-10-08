@@ -27,8 +27,15 @@ plots presented in our forthcoming paper,
 
 ## Data
 
-The ETT dataset used in the paper can be downloaded in the repo [ETDataset](https://github.com/zhouhaoyi/ETDataset).
-The required data files should be put into `data/ETT/` folder. A demo slice of the ETT data is illustrated in the following figure. Note that the input of each dataset is zero-mean normalized in this implementation.
+The detailed descriptions about the arguments are as following:
+
+| Parameter name | Description of parameter |
+| --- | --- |
+| model | The model of experiment. This can be set to `informer`, `informerstack`, `informerlight(TBD)` |
+| data           | The dataset name                                             |
+| root_path      | The root path of the data file (defaults to `./data/ETT/`)    |
+| data_path      | The data file name (defaults to `ETTh1.csv`)                  |
+| features       | The forecasting task (defaults to `M`). This can be set to `M`,`S`,`MS` (M : multivariate predict multivariate, S : univariate predict univariate, MS : multivariate predict univariate) |
 
 
 
