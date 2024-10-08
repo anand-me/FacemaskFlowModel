@@ -183,41 +183,72 @@ The feature (nose) data and PCA data for figure 11 (or supplementry material fig
 - [Google Drive](https://drive.google.com/drive/folders/1WQvdLrIppWfo6OH1EYPmjKBLQWqMEdKp?usp=sharing)
 
 
-## <span id="resultslink">Results</span>
-
-## <span id="resultslink">Results</span>
-
-<div style="text-align:center;">
-  <h2>Figures</h2>
-  <img id="currentImage" src="img/jpg_version/Fig_1.jpg" style="max-width:100%; height:auto;">
-  <br><br>
-  <button id="nextButton">Show Next</button>
-</div>
-
-<script>
-  // Array of image filenames
-  const images = [
-    'img/jpg_version/Fig_1.jpg',
-    'img/jpg_version/Fig_2.jpg',
-    'img/jpg_version/Fig_3.jpg',
-    'img/jpg_version/Fig_4.jpg',
-    'img/jpg_version/Fig_5.jpg',
-    'img/jpg_version/Fig_6.jpg',
-    'img/jpg_version/Fig_7.jpg',
-    'img/jpg_version/Fig_8.jpg',
-    'img/jpg_version/Fig_9.jpg',
-    'img/jpg_version/Fig_10.jpg',
-    'img/jpg_version/Fig_11.jpg'
-  ];
-  
-  let currentIndex = 0;
-
-  // Event listener for the button
-  document.getElementById('nextButton').addEventListener('click', function() {
-    currentIndex++;
-    if (currentIndex >= images.length) {
-      currentIndex = 0; // Reset to the first image
+<span id="resultslink">Results</span>
+<style>
+    .carousel-container {
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
     }
-    document.getElementById('currentImage').src = images[currentIndex];
-  });
+    .carousel-image {
+        max-width: 100%;
+        height: auto;
+        display: none;
+    }
+    .carousel-image.active {
+        display: block;
+    }
+    .carousel-button {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+</style>
+<div class="carousel-container">
+    <img src="img/jpg_version/Fig_1.jpg" alt="Figure 1" class="carousel-image active">
+    <img src="img/jpg_version/Fig_2.jpg" alt="Figure 2" class="carousel-image">
+    <img src="img/jpg_version/Fig_3.jpg" alt="Figure 3" class="carousel-image">
+    <img src="img/jpg_version/Fig_4.jpg" alt="Figure 4" class="carousel-image">
+    <img src="img/jpg_version/Fig_5.jpg" alt="Figure 5" class="carousel-image">
+    <img src="img/jpg_version/Fig_6.jpg" alt="Figure 6" class="carousel-image">
+    <img src="img/jpg_version/Fig_7.jpg" alt="Figure 7" class="carousel-image">
+    <img src="img/jpg_version/Fig_8.jpg" alt="Figure 8" class="carousel-image">
+    <img src="img/jpg_version/Fig_9.jpg" alt="Figure 9" class="carousel-image">
+    <img src="img/jpg_version/Fig_10.jpg" alt="Figure 10" class="carousel-image">
+    <img src="img/jpg_version/Fig_11.jpg" alt="Figure 11" class="carousel-image">
+    <br>
+    <button class="carousel-button" onclick="changeImage(-1)">Previous</button>
+    <button class="carousel-button" onclick="changeImage(1)">Next</button>
+</div>
+<script>
+let currentImage = 0;
+const images = document.querySelectorAll('.carousel-image');
+
+function changeImage(direction) {
+    images[currentImage].classList.remove('active');
+    currentImage = (currentImage + direction + images.length) % images.length;
+    images[currentImage].classList.add('active');
+}
 </script>
+Figure Descriptions
+
+Figure 1: [Brief description of Figure 1]
+Figure 2: [Brief description of Figure 2]
+Figure 3: [Brief description of Figure 3]
+Figure 4: [Brief description of Figure 4]
+Figure 5: [Brief description of Figure 5]
+Figure 6: [Brief description of Figure 6]
+Figure 7: [Brief description of Figure 7]
+Figure 8: [Brief description of Figure 8]
+Figure 9: [Brief description of Figure 9]
+Figure 10: [Brief description of Figure 10]
+Figure 11: [Brief description of Figure 11]
+
+For a more detailed analysis of these results, please refer to our full paper [link to paper].
