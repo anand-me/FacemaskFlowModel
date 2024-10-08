@@ -15,3 +15,9 @@ plots presented in our forthcoming paper,
 <br><br>
 <b>Figure 1.</b> The architecture of Informer.
 </p>
+
+<p align="center">
+<img src=".\img\Picture1.png" height = "360" alt="" align=center />
+<br><br>
+<b>Figure 1.</b> The architecture of Informer.
+</p>
