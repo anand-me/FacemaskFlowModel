@@ -5,11 +5,13 @@
 ![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg?style=plastic)
 ![License CC BY-NC-SA](https://img.shields.io/badge/license-CC_BY--NC--SA--green.svg?style=plastic)
 
-
-
-
 This repository is dedicated to providing readers with access to the data and code required to recreate the 
 plots presented in our forthcoming paper, 
 **"Identifying the Effectiveness of Face Masks in a Large Population with a Network-Based Fluid Model."**
  As the paper has not yet been published, a direct link is not available at this time.
 
+<p align="center">
+<img src=".\img\readme_fig.jpg" height = "360" alt="" align=center />
+<br><br>
+<b>Figure 1.</b> The architecture of Informer.
+</p>
