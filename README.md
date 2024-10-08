@@ -13,6 +13,6 @@ plots presented in our forthcoming paper,
 <p align="center">
 <img src=".\img\readme_fig.jpg" height = "200" alt="" align=center />
 <br><br>
-<b>Figure 1.</b> The architecture of Informer.
+<b>Figure 1.</b> Summary of the three major steps in this research. Step 1: Face representation using PCA (Principal Component Analysis) and mask deployment. Step 2: Development of a flow network. Step 3: Application of an analytical flow model for leakage quantification. This approach enables the quantification of both peripheral ($Q{_g}$) and through-mask leakages ($Q{_m}$)
 </p>
 
