@@ -31,9 +31,9 @@ The detailed descriptions about the arguments are as following:
 
 | Parameter name | Description of parameter |
 | --- | --- |
-| model | The model of experiment. This can be set to `informer`, `informerstack`, `informerlight(TBD)` |
-| data           | The dataset name                                             |
-| root_path      | The root path of the data file (defaults to `./data/ETT/`)    |
+| data_for_figure_5a.mat | 9 x6 to `informer`, `informerstack`, `informerlight(TBD)` |
+| data_for_figure_5b.mat | 9 x6         | The dataset name                                             |
+| data_for_figure_5c.mat | 9 x6    | The root path of the data file (defaults to `./data/ETT/`)    |
 | data_path      | The data file name (defaults to `ETTh1.csv`)                  |
 | features       | The forecasting task (defaults to `M`). This can be set to `M`,`S`,`MS` (M : multivariate predict multivariate, S : univariate predict univariate, MS : multivariate predict univariate) |
 
