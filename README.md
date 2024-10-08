@@ -131,6 +131,15 @@ This will plot Figures 6a to 6f as shown in the manuscript.
 
 ## Figure 10
 
+
+| Parameter Name                | Size  | Description of Parameter                        |
+|-------------------------------|-------|-------------------------------------------------|
+| data_for_jet_vel_cheek.mat      | 24 x 7| \Jet velocity for feature cheek (outward protection model) (m/s)                    |
+| data_for_jet_vel_chin.mat       | 24 x 7| \Jet velocity for feature chin (outward protection model) (m/s)                    |
+| data_for_jet_vel_nose.mat       | 24 x 7| \Jet velocity for feature nose (outward protection model) (m/s)                   |
+| data_for_jet_vel_zygo.mat       | 24 x 7| \Jet velocity for feature zygo (outward protection model) (m/s)                   |
+
+
 ### Datasets
 
 - **`data_for_jet_vel_cheek.mat`**: 24 x 7
