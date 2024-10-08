@@ -3,17 +3,25 @@
 close all;
 clear all;
 
-% Define the base path
-base_path = 'D:\Breathing\Paper\Data_and_Code_for_each_figure\Figure_6_ck_wrt_y_and_A_Sensitivity_Using_Matlab\';
 
+
+current_path = fileparts(mfilename('fullpath'));
+parent_path = fileparts(current_path);
+base_path = fullfile(parent_path, 'data');
 % Define the files and corresponding figure letters
 files = {'data_for_figure_5a.mat', 'data_for_figure_5b.mat', 'data_for_figure_5c.mat'};
 fig_letters = {'a', 'b', 'c'};
 
 % Main loop to process all figures
 for i = 1:length(files)
-    % Load data
-    load([base_path files{i}]);
+
+    data_file = fullfile(base_path, files{i});
+    
+    if exist(data_file, 'file')
+        load(data_file);
+    else
+        error('File %s not found.', data_file);
+    end
     
     % Get the variable name dynamically
     var_name = ['Newdata_for_figure_5' fig_letters{i}];

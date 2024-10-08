@@ -21,3 +21,6 @@ for i = 1:length(scripts)
 end
 
 disp('All figure scripts have been executed.');
+
+
+
