@@ -17,3 +17,20 @@ plots presented in our forthcoming paper,
 <b>Figure 1.</b> Summary of the three major steps in this research. Step 1: Face representation using PCA (Principal Component Analysis) and mask deployment. Step 2: Development of a flow network. Step 3: Application of an analytical flow model for leakage quantification. This approach enables the quantification of both peripheral ($Q{_g}$) and through-mask leakages ($Q{_m}$)
 </p>
 
+## Requirements
+
+- MATLAB R2023a (or even older versions)
+- Rhinoceros 5.0 == 5.0 (for deployment figures)
+- Grasshopper == v1.0 (for deployment figures)
+- python == 3.6
+- pandas == 0.25.1
+
+## Data
+
+The ETT dataset used in the paper can be downloaded in the repo [ETDataset](https://github.com/zhouhaoyi/ETDataset).
+The required data files should be put into `data/ETT/` folder. A demo slice of the ETT data is illustrated in the following figure. Note that the input of each dataset is zero-mean normalized in this implementation.
+
+
+
+The feature (nose) data and PCA data for figure 11 (or supplementry material figure) can be downloaded here.
+- [Google Drive](https://drive.google.com/drive/folders/1WQvdLrIppWfo6OH1EYPmjKBLQWqMEdKp?usp=sharing)
