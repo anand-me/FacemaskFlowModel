@@ -210,9 +210,9 @@ Below are the key figures from our study. Click on each image to view it in full
   </tr>
   <!-- Continue this pattern for the remaining figures -->
    <tr>
-    <td><a href="img/jpg_version/Fig_7.jpg"><img src="img/jpg_version/Fig_4.jpg" width="250" alt="Figure 4"/></a></td>
-    <td><a href="img/jpg_version/Fig_8.jpg"><img src="img/jpg_version/Fig_5.jpg" width="250" alt="Figure 5"/></a></td>
-    <td><a href="img/jpg_version/Fig_9.jpg"><img src="img/jpg_version/Fig_6.jpg" width="250" alt="Figure 6"/></a></td>
+    <td><a href="img/jpg_version/Fig_7.jpg"><img src="img/jpg_version/Fig_7.jpg" width="250" alt="Figure 4"/></a></td>
+    <td><a href="img/jpg_version/Fig_8.jpg"><img src="img/jpg_version/Fig_8.jpg" width="250" alt="Figure 5"/></a></td>
+    <td><a href="img/jpg_version/Fig_9.jpg"><img src="img/jpg_version/Fig_9.jpg" width="250" alt="Figure 6"/></a></td>
   </tr>
   <tr>
     <td>Figure 7: [Facial shape changes (row 1), q_g, v_n, and gap profiles (rows 2-4) for nose, chin, zygomatic arch, and cheeks. Inward protection model overlaid in green. Mean face results on far left.]</td>
@@ -220,8 +220,8 @@ Below are the key figures from our study. Click on each image to view it in full
     <td>Figure 9: [Nose clip effects on peripheral leakage (k_L = 1000). Rows show facial realizations, q_g, v_n, and gap distance for facial features. Inward model overlaid in green; mean face results on left.]</td>
   </tr>
    <tr>
-    <td><a href="img/jpg_version/Fig_10.jpg"><img src="img/jpg_version/Fig_4.jpg" width="250" alt="Figure 4"/></a></td>
-    <td><a href="img/jpg_version/Fig_11.jpg"><img src="img/jpg_version/Fig_5.jpg" width="250" alt="Figure 5"/></a></td>
+    <td><a href="img/jpg_version/Fig_10.jpg"><img src="img/jpg_version/Fig_10.jpg" width="250" alt="Figure 4"/></a></td>
+    <td><a href="img/jpg_version/Fig_11.jpg"><img src="img/jpg_version/Fig_11.jpg" width="250" alt="Figure 5"/></a></td>
   </tr>
   <tr>
     <td>Figure 10: [Peripheral leakage jets for nose, chin, zygomatic arch, and cheeks with α = -1.2 and 1.2. Black lines: no clip; blue: k_L = 10; red: k_L = 1000. Outward protection model results. Channel numbering as in Fig. 2.]</td>
