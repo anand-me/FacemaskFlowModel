@@ -211,7 +211,7 @@ Below are the key figures from our study. Click on each image to view it in full
   <!-- Continue this pattern for the remaining figures -->
    <tr>
     <td><a href="img/jpg_version/Fig_7.jpg"><img src="img/jpg_version/Fig_7.jpg" width="250" alt="Figure 4"/></a></td>
-    <td><a href="img/jpg_version/Fig_8.jpg"><img src="img/jpg_version/Fig_8.jpg" width="250" alt="Figure 5"/></a></td>
+    <td><a href="img/jpg_version/Fig_8_review_edits.jpg"><img src="img/jpg_version/Fig_8.jpg" width="250" alt="Figure 5"/></a></td>
     <td><a href="img/jpg_version/Fig_9.jpg"><img src="img/jpg_version/Fig_9.jpg" width="250" alt="Figure 6"/></a></td>
   </tr>
   <tr>
@@ -220,7 +220,7 @@ Below are the key figures from our study. Click on each image to view it in full
     <td>Figure 9: [Nose clip effects on peripheral leakage (k_L = 1000). Rows show facial realizations, q_g, v_n, and gap distance for facial features. Inward model overlaid in green; mean face results on left.]</td>
   </tr>
    <tr>
-    <td><a href="img/jpg_version/Fig_10.jpg"><img src="img/jpg_version/Fig_10.jpg" width="250" alt="Figure 4"/></a></td>
+    <td><a href="img/jpg_version/Fig_10_review_edits.jpg"><img src="img/jpg_version/Fig_10.jpg" width="250" alt="Figure 4"/></a></td>
     <td><a href="img/jpg_version/Fig_11.jpg"><img src="img/jpg_version/Fig_11.jpg" width="250" alt="Figure 5"/></a></td>
   </tr>
   <tr>
