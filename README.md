@@ -183,53 +183,9 @@ The feature (nose) data and PCA data for figure 11 (or supplementry material fig
 - [Google Drive](https://drive.google.com/drive/folders/1WQvdLrIppWfo6OH1EYPmjKBLQWqMEdKp?usp=sharing)
 
 
-## <span id="resultslink">Results</span>
 
-Below are the key figures from our study. Click on each image to view it in full size.
-
-<table>
-  <tr>
-    <td><a href="img/jpg_version/Fig_1.jpg"><img src="img/jpg_version/Fig_1.jpg" width="250" alt="Figure 1"/></a></td>
-    <td><a href="img/jpg_version/Fig_2.jpg"><img src="img/jpg_version/Fig_2.jpg" width="250" alt="Figure 2"/></a></td>
-    <td><a href="img/jpg_version/Fig_3.jpg"><img src="img/jpg_version/Fig_3.jpg" width="250" alt="Figure 3"/></a></td>
-  </tr>
-  <tr>
-    <td>Figure 1: [Three-step research process: 1) Face representation via PCA and mask deployment, 2) Flow network development, 3) Analytical flow model for leakage quantification, measuring peripheral (Q_g) and through-mask (Q_m) leakages.]</td>
-    <td>Figure 2: [The planar view of a rectangular mask. Channels originate from the high-pressure region and terminate at the outer edge of the mask. The red arrow depicts the direction of channel numbering. Here, 1 and 2 are the sizes of the long and short.]</td>
-    <td>Figure 3: [A schematic of channels defined inside the region between the face and mask.]</td>
-  </tr>
-  <tr>
-    <td><a href="img/jpg_version/Fig_4.jpg"><img src="img/jpg_version/Fig_4.jpg" width="250" alt="Figure 4"/></a></td>
-    <td><a href="img/jpg_version/Fig_5.jpg"><img src="img/jpg_version/Fig_5.jpg" width="250" alt="Figure 5"/></a></td>
-    <td><a href="img/jpg_version/Fig_6.jpg"><img src="img/jpg_version/Fig_6.jpg" width="250" alt="Figure 6"/></a></td>
-  </tr>
-  <tr>
-    <td>Figure 4: [Schematics of channel flow corresponding to the points along the perimeter of the mask, K_o is the average height of the channel and Δh(x)  is the function that varies with x; the actual local height at any point is product of  K_o and Δh(x).]</td>
-    <td>Figure 5: [Exhale flux penetration vs c_k. (a-c) Outward and (d-f) inward protection models with decreasing porosity. k_L: head loss coefficient. Sensitivity: cavity size (±7.5%, red/blue) and placement (±5mm, inset); base case (dotted black).]</td>
-    <td>Figure 6: [Through-mask leakage contributions from cavity and channel network. (a-c) Outward protection (with nose clips) and (d-f) inward protection models for decreasing porosity (c_k = 100, 500, 1000 kg/m²s). Inward protection k_L = 0.5.]</td>
-  </tr>
-  <!-- Continue this pattern for the remaining figures -->
-   <tr>
-    <td><a href="img/jpg_version/Fig_7.jpg"><img src="img/jpg_version/Fig_7.jpg" width="250" alt="Figure 4"/></a></td>
-    <td><a href="img/jpg_version/Fig_8_review_edits.jpg"><img src="img/jpg_version/Fig_8.jpg" width="250" alt="Figure 5"/></a></td>
-    <td><a href="img/jpg_version/Fig_9.jpg"><img src="img/jpg_version/Fig_9.jpg" width="250" alt="Figure 6"/></a></td>
-  </tr>
-  <tr>
-    <td>Figure 7: [Facial shape changes (row 1), q_g, v_n, and gap profiles (rows 2-4) for nose, chin, zygomatic arch, and cheeks. Inward protection model overlaid in green. Mean face results on far left.]</td>
-    <td>Figure 8: [Percentage contributions of (a) peripheral leakages (Q_g), through-mask flux (Q_m), and channel network (Q_m,c) during exhale; (b) Q_g from nose, chin, and cheeks for nine facial features. c_k = 500 kg/m²s; α = ±1.2; k_L = 10⁰–10³.]</td>
-    <td>Figure 9: [Nose clip effects on peripheral leakage (k_L = 1000). Rows show facial realizations, q_g, v_n, and gap distance for facial features. Inward model overlaid in green; mean face results on left.]</td>
-  </tr>
-   <tr>
-    <td><a href="img/jpg_version/Fig_10_review_edits.jpg"><img src="img/jpg_version/Fig_10.jpg" width="250" alt="Figure 4"/></a></td>
-    <td><a href="img/jpg_version/Fig_11.jpg"><img src="img/jpg_version/Fig_11.jpg" width="250" alt="Figure 5"/></a></td>
-  </tr>
-  <tr>
-    <td>Figure 10: [Peripheral leakage jets for nose, chin, zygomatic arch, and cheeks with α = -1.2 and 1.2. Black lines: no clip; blue: k_L = 10; red: k_L = 1000. Outward protection model results. Channel numbering as in Fig. 2.]</td>
-    <td>Figure 11: [Parametric study for selecting an optimal number of channels for quantifying the flow in the interface region between the face and the mask.]</td>
-  </tr>
-</table>
 
 For a detailed explanation of each figure, please refer to our paper.
 
 ## Contact
-If you have any questions, feel free to contact Akshay Aannd through Email (aanand@fsu.edu) or Github issues. Pull requests are highly welcomed!
+If you have any questions, feel free to contact Akshay Aannd through Email (aanand@fsu.edu) or craete an Github issues. Pull requests are highly welcomed!
