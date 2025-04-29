@@ -128,7 +128,7 @@ This will plot Figures 6a to 6f as shown in the manuscript.
   All data for contributions of \( Q_g \) and \( Q_m \) is organized for 9 facial features.
 
 - **Cell 58 to 63**: Contains data for \( alpha = -1.2 \)
-This will plot Figure 8 as shown in the manuscript.
+
 ---
 
 ## Figure 10
