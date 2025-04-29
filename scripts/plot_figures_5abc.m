@@ -39,14 +39,14 @@ fprintf('All figures have been plotted and saved.\n');
 
 % Local function to plot and save a single figure
 function plot_and_save_figure(data, fig_letter)
-    %% ~~~~~~~~~~~ for Journal ~~~~~~~~~~~~~~~~~~
+    %% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     font_name='Times New Roman';
     font_axes=18;
     font_legend=18;
     font_axestitle=18;
     font_title=14;
 
-    %% ~~~~~~~~ setting page margin ~~~~~~~~~~~~~~~~~~~~~~~~~
+    %% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     marginleft=0.2;
     marginright=0.1;
     marginbottom=0.2;
