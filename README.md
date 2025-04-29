@@ -6,10 +6,10 @@
 ![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg?style=plastic)
 ![License CC BY-NC-SA](https://img.shields.io/badge/license-CC_BY--NC--SA--green.svg?style=plastic)
 
-This repository is dedicated to providing readers with access to the data and code required to recreate the 
-plots presented in our forthcoming paper, 
-**"Identifying the Effectiveness of Face Masks in a Large Population with a Network-Based Fluid Model."**
- As the paper has not yet been published, a direct link is not available at this time.
+
+ 
+ This repository contains data and code to recreate the plots presented in our paper, **"Identifying the Effectiveness of Face Masks in a Large Population with a Network-Based Fluid Model."**
+
 
 <p align="center">
 <img src=".\img\readme_fig.jpg" height = "200" alt="" align=center />
@@ -58,11 +58,13 @@ This dataset corresponds to exhale flux penetrating through the mask fabric for 
 
 For inward protection model for two different values of head loss coefficient \( k_L \): 0.2 and 0.5.
 
+**Run**: `plot_figures_5def.m`
+
 | Parameter Name                | Size  | Description of Parameter                         |
 |-------------------------------|-------|-------------------------------------------------|
-| data_for_figure_5a.mat       | 9 x 11| \( c_k = 100 \) (kg/m² × s)                    |
-| data_for_figure_5b.mat       | 9 x 11| \( c_k = 500 \) (kg/m² × s)                    |
-| data_for_figure_5c.mat       | 9 x 11| \( c_k = 1000 \) (kg/m² × s)                   |
+| data_for_figure_5d.mat       | 9 x 11| \( c_k = 100 \) (kg/m² × s)                    |
+| data_for_figure_5e.mat       | 9 x 11| \( c_k = 500 \) (kg/m² × s)                    |
+| data_for_figure_5f.mat       | 9 x 11| \( c_k = 1000 \) (kg/m² × s)                   |
 
 #### Sensitivity Analysis for \( k_L = 0.2 \)
 
@@ -126,7 +128,7 @@ This will plot Figures 6a to 6f as shown in the manuscript.
   All data for contributions of \( Q_g \) and \( Q_m \) is organized for 9 facial features.
 
 - **Cell 58 to 63**: Contains data for \( alpha = -1.2 \)
-
+This will plot Figure 8 as shown in the manuscript.
 ---
 
 ## Figure 10
@@ -176,11 +178,6 @@ These files show the final versions of the plots presented in the paper.
 
 ---
 
-The same approach can be followed for cases with 48 and 56 channels.
-
-
-The feature (nose) data and PCA data for figure 11 (or supplementry material figure) can be downloaded here.
-- [Google Drive](https://drive.google.com/drive/folders/1WQvdLrIppWfo6OH1EYPmjKBLQWqMEdKp?usp=sharing)
 
 
 
@@ -188,4 +185,10 @@ The feature (nose) data and PCA data for figure 11 (or supplementry material fig
 For a detailed explanation of each figure, please refer to our paper.
 
 ## Contact
-If you have any questions, feel free to contact Akshay Aannd through Email (aanand@fsu.edu) or craete an Github issues. Pull requests are highly welcomed!
+
+If you have questions or suggestions:
+- Create an [Issue](https://github.com/anand-me/FacemaskFlowModel/issues) on GitHub
+- Submit a [Pull Request](https://github.com/anand-me/FacemaskFlowModel/pulls) with your proposed changes
+
+Pull requests and contributions are highly welcome!
+
