@@ -37,7 +37,7 @@ If this research is helpful to your work, please cite our paper:
 
 **🔗 Links:**
 - [Published Paper](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0324229)
-- [PLOS ONE Journal](https://journals.plos.org/plosone/)
+
 
 ## Requirements
 
