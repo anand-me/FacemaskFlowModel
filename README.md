@@ -17,20 +17,27 @@
 <b>Figure 1.</b> Summary of the three major steps in this research. Step 1: Face representation using PCA (Principal Component Analysis) and mask deployment. Step 2: Development of a flow network. Step 3: Application of an analytical flow model for leakage quantification. This approach enables the quantification of both peripheral ($Q{_g}$) and through-mask leakages ($Q{_m}$)
 </p>
 
-## Citation
+## 📝 Citation
+
+If this research is helpful to your work, please cite our paper:
+
+```bibtex
 @article{anand2025identifying,
   title={Identifying the effectiveness of face mask in a large population with a network-based fluid model},
   author={Anand, Akshay and Shoele, Kourosh},
-  journal={PLoS One},
+  journal={PLOS ONE},
   volume={20},
   number={6},
   pages={e0324229},
   year={2025},
-  publisher={Public Library of Science San Francisco, CA USA}
+  publisher={Public Library of Science San Francisco, CA USA},
+  doi={10.1371/journal.pone.0324229}
 }
+```
 
-## PDF
-Grab a copy of pdf from(https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0324229) here
+**🔗 Links:**
+- [Published Paper](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0324229)
+- [PLOS ONE Journal](https://journals.plos.org/plosone/)
 
 ## Requirements
 
